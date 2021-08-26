@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VentaAuto</string>
+    <string name="Usuario">Ingrese Usuario</string>
+    <string name="Clave">Ingrese Clave</string>
+    <string name="btnLogin">INGRESAR</string>
+    <string name="btnVer">Ver >></string>
+    <string name="btnComprar">COMPRAR</string>
+
+
+</resources>
