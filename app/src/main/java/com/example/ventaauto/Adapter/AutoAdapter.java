@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.ventaauto.Model.Automovil;
@@ -53,11 +54,13 @@ public class AutoAdapter extends BaseAdapter {
         TextView txtModelo =  vista.findViewById(R.id.txtModelo);
         TextView txtAnio =  vista.findViewById(R.id.txtAnio);
         TextView txtPrecio = vista.findViewById(R.id.txtPrecio);
+        ImageView imageView = vista.findViewById(R.id.imageView);
 
         txtMarca.setText(item.getMarca());
         txtModelo.setText(item.getModelo());
-        // txtAnio.setText(item.getAnio());
-        //txtPrecio.setText(item.getPrecio());
+        imageView.setImageResource(item.getFoto());
+        txtAnio.setText("" + item.getAnio()); //convierto a string
+        txtPrecio.setText(String.valueOf(item.getPrecio())); //otra forma de convertir a string
 
         return vista;
     }

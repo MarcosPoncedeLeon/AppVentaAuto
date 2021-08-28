@@ -20,8 +20,13 @@ public class descripcionAuto extends AppCompatActivity {
 
 
 
+
     }
 
+
+
+
+    
     public void asociar(){
         txtMarc = findViewById(R.id.txtMarc);
         textModels = findViewById(R.id.txtModelo);

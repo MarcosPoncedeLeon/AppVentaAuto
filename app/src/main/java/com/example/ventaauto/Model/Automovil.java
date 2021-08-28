@@ -9,8 +9,9 @@ public class Automovil {
     private int kilometros;
     private int puertas;
     private int precio;
+    private int foto; //las imagenes son numeros enteros
 
-    public Automovil(int id, String marca, String modelo, int anio, String combustible, int kilometros, int puertas, int precio) {
+    public Automovil(int id, String marca, String modelo, int anio, String combustible, int kilometros, int puertas, int precio,  int foto) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
@@ -19,10 +20,19 @@ public class Automovil {
         this.kilometros = kilometros;
         this.puertas = puertas;
         this.precio = precio;
+        this.foto = foto;
     }
 
     public Automovil(){
 
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
     }
 
     public int getId() {

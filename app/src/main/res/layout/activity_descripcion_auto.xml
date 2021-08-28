@@ -17,7 +17,7 @@
         android:id="@+id/txtMarc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:text="TextView" />
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="20dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:text="TextView" />
 
@@ -35,35 +35,35 @@
         android:id="@+id/textanio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:text="TextView" />
 
     <TextView
         android:id="@+id/textCombus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:text="TextView" />
 
     <TextView
         android:id="@+id/textPuertas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:text="TextView" />
 
     <TextView
         android:id="@+id/textKilo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:text="TextView" />
 
     <TextView
         android:id="@+id/textValor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="28dp"
         android:layout_gravity="center_horizontal"
         android:textSize="24dp"
         android:textStyle="bold"
