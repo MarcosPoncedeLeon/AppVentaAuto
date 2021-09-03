@@ -24,5 +24,7 @@ public class item_lista_autos extends AppCompatActivity {
         txtModelo = (TextView) findViewById(R.id.txtModelo);
         txtAnio = (TextView) findViewById(R.id.txtAnio);
         txtPrecio = (TextView) findViewById(R.id.txtPrecio);
+
+
     }
 }

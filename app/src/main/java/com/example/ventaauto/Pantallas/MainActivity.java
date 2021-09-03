@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l){
                 Automovil item = stock.get(pos); //con el metodo get() que recibe la posicion,  obtengo el item seleccinado de la lista
 
-                Intent aDescripcion = new Intent ( );
+               Intent aDescripcion = new Intent ( MainActivity.this , descripcionAuto.class );
 
                 aDescripcion.putExtra("EXTRA_FOTO", item.getFoto());
                 aDescripcion.putExtra("EXTRA_MARCA", item.getMarca());
@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(aDescripcion);
             }
-
         });
     }
 }
